@@ -1,16 +1,18 @@
+
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class mudarcena : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+{ 
+        public void TrocarCena()
     {
-        
+        SceneManager.LoadScene(1);
     }
-
-    // Update is called once per frame
-    void Update()
+        public void IrParaConfig()
     {
-        
+        SceneManager.LoadScene(2);
+    }
+        public void SairConfig()
+    {
+        SceneManager.LoadScene(0);
     }
 }
