@@ -3,6 +3,7 @@ using UnityEngine;
 public class vidainimigo : MonoBehaviour
 {
     public float health = 10f;
+   
 
     public void TakeDamage(float damage)
     {
