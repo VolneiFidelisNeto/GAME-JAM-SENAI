@@ -6,7 +6,17 @@ public class ataque : MonoBehaviour
     public Transform pontoDeDisparo;
     public float velocidadeProjetil = 10f;
     public vidainimigo Binimigo;
-
+    public vidainimigo Binimigo2;
+    public vidainimigo Binimigo3;
+    public vidainimigo Binimigo4;
+    public vidainimigo Binimigo5;
+    public vidainimigo Binimigo6;
+    public vidainimigo Binimigo7;
+    public vidainimigo Binimigo8;
+    public vidainimigo Binimigo9;
+    public vidainimigo Binimigo10;
+    public vidainimigo Binimigo11;
+    public vidainimigo Binimigo12;
     void Update()
     {
         // Atira com a tecla Espaço ou Botão Esquerdo do Mouse
@@ -34,17 +44,6 @@ public class ataque : MonoBehaviour
         rb.linearVelocity = new Vector2(velocidadeProjetil * direcao, 0);
 
         Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
-        Binimigo.TakeDamage(1f);
+       
     }
 }
