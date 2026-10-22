@@ -34,7 +34,17 @@ public class ataque : MonoBehaviour
         rb.linearVelocity = new Vector2(velocidadeProjetil * direcao, 0);
 
         Binimigo.TakeDamage(1f);
-
-
+        Binimigo.TakeDamage(1f);
+        Binimigo.TakeDamage(1f);
+        Binimigo.TakeDamage(1f);
+        Binimigo.TakeDamage(1f);
+        Binimigo.TakeDamage(1f);
+        Binimigo.TakeDamage(1f);
+        Binimigo.TakeDamage(1f);
+        Binimigo.TakeDamage(1f);
+        Binimigo.TakeDamage(1f);
+        Binimigo.TakeDamage(1f);
+        Binimigo.TakeDamage(1f);
+        Binimigo.TakeDamage(1f);
     }
 }
